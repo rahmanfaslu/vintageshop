@@ -84,11 +84,11 @@ function App() {
   className="fixed top-0 left-0 w-full h-full sm:block flex justify-center items-center"
 >
   {/* Click text image */}
-  <img
-    src="/public/click-text.png"
-    alt="click-text"
-    className="absolute w-60 h-50 ml-[460px] mt-[180px] z-20 hidden sm:block"
-  />
+  <p className="absolute text-amber-50 text-center w-40 rotate-5 ml-[500px] mt-[250px] z-20 hidden sm:block leading-4">
+  click the<br />Frame
+</p>
+
+
 
   {/* Frame image */}
   <img
