@@ -97,7 +97,7 @@ export default function App() {
       <img
         src={isLightOn ? "/light-on.png" : "/light-off.png"}
         alt="background light"
-        className="w-full h-full object-cover transition-all duration-500"
+        className="w-full h-full object-contain sm:object-cover transition-all duration-500"
       />
 
       {/* 🎛 Bottom Control Panel */}
