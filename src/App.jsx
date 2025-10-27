@@ -64,7 +64,7 @@ export default function App() {
         {/* Desktop Switch */}
         <button
           onClick={handleSwitch}
-          className="hidden sm:blockt h-[270px] w-[120px] ml-60 mt-30 absolute shadow-lg z-20 rounded-lg"
+          className="hidden sm:block h-[270px] w-[120px] ml-60 mt-30 absolute shadow-lg z-20 rounded-lg"
         ></button>
 
         {/* Mobile Switch */} 
